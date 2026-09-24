@@ -1,4 +1,4 @@
-# Anomaly Segmentation
+# Anomaly Segmentation for Autonomous Driving
 
 This project studies anomaly segmentation for autonomous-driving scenes. It
 compares a pixel-based ERFNet model with the mask-based EoMT architecture and
