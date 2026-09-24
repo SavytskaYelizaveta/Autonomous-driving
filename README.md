@@ -5,7 +5,7 @@ compares a pixel-based ERFNet model with the mask-based EoMT architecture and
 evaluates their ability to detect objects that are outside the training
 distribution.
 
-## Prject Context
+## Project Context
 This project was developed as a **team project**, where each member focused on different stages of the pipeline.
 
 ## My Contribution
