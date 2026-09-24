@@ -5,8 +5,22 @@ compares a pixel-based ERFNet model with the mask-based EoMT architecture and
 evaluates their ability to detect objects that are outside the training
 distribution.
 
+## Prject Context
+This project was developed as a **team project**, where each member focused on different stages of the pipeline.
+
+## My Contribution
+My main contributions to the **EoMT-based anomaly segmentation pipeline** include:
+
+- Evaluation of **COCO-trained and Cityscapes-trained EoMT checkpoints** on the **Cityscapes dataset**.
+- Development and execution of the **EoMT visualization and evaluation pipeline**.
+- **Fine-tuning the COCO-pretrained EoMT model on Cityscapes** and evaluating semantic segmentation performance.
+- Implementation and evaluation of **anomaly detection baselines for EoMT**, including **MSP, MaxLogit, Max Entropy, and RbA**.
+
+The project involved working with **PyTorch, DINOv2, EoMT, semantic segmentation, anomaly detection, and out-of-distribution detection** in autonomous-driving scenarios.
+
 ## Project Stages
 
+- **Step 1 - 3:** theoretical study of EoMT and ERFNet models.
 - **Step 4 - EoMT evaluation:** compare COCO-trained and Cityscapes-trained EoMT
   checkpoints on Cityscapes.
 - **Step 5 - EoMT fine-tuning:** fine-tune the COCO checkpoint on Cityscapes and
